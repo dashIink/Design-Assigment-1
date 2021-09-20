@@ -1,4 +1,4 @@
-public class ItemFactory {
+public class ItemFactory implements AbstractItemFactory{
     Database data;
     public ItemFactory (){
         data = new Database();

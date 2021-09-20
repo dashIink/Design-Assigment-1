@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args){
-        ItemFactory factory = new ItemFactory();
+        AbstractItemFactory factory = new ItemFactory();
         ItemCreation item1 = factory.createItem("Paper");
         ItemCreation item2 = factory.createItem("Pencils");
 
